@@ -22,7 +22,7 @@ class Box {
 		this.value = value;
 	}
 
-	public static Box getBox(Object value) {
+	public static Box getInstance(Object value) {
 		if (instance == null) {
 			instance = new Box(value);
 		}
